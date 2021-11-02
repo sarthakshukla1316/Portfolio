@@ -1,0 +1,48 @@
+.pl {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pl-texts {
+    width: 65%;
+}
+
+.pl-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.pl-desc {
+    margin: 20px 0px;
+    word-spacing: 4px;
+    line-height: 1.5;
+}
+
+.pl-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* -------  MEDIA QUERIES -------- */
+
+@media screen and (max-width: 780px) {
+    .pl {
+        margin-top: 60px;
+        padding: 10px;
+    }
+
+    .pl-texts {
+        width: 100%;
+    }
+
+    .pl-title {
+        font-size: 42px;
+        font-weight: 500;
+    }
+}
