@@ -1,5 +1,7 @@
 import "./intro.css";
 import me from "../../img/sarthak.jpg";
+import { Button } from "@material-ui/core";
+import resume from '../../img/resume.pdf';
 
 const Intro = () => {
   return (
@@ -22,6 +24,8 @@ const Intro = () => {
             ability to perform well in a team. Passionate about coding and
             potential to develop solutions to existing real life problems.
           </p>
+          <a href={resume} className="resume">View Resume</a>
+          {/* <Button href={resume} sx={{width: '50%'}} variant="contained">View Resume</Button> */}
         </div>
         <svg
           width="75"
