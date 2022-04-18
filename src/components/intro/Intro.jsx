@@ -1,6 +1,5 @@
 import "./intro.css";
 import me from "../../img/sarthak.jpg";
-import { Button } from "@material-ui/core";
 import resume from '../../img/resume.pdf';
 
 const Intro = () => {

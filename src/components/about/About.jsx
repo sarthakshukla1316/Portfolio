@@ -1,6 +1,6 @@
 import './about.css';
 import me from '../../img/pic.jpg';
-import cert from '../../img/problem.png';
+import cert from '../../img/codejam.png';
 
 const About = () => {
     return (
@@ -14,18 +14,17 @@ const About = () => {
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
-                    A Full Stack Developer with Excellent problem solving skills and ability to perform well under pressure
+                    A Full Stack Developer with Excellent problem solving skills and ability to perform well under pressure.
                 </p>
                 <p className="a-desc">
-                    My name is Sarthak Shukla. I am currently pursuing my Bachelor of Technology in Computer Science & Engineering from JSS Academy of Technical Education, Noida. I have been Interned as a Full Stack Developer at GrowthGear where I have worked with React, Node, Express, MongoDB, Nodemailer, Styled Components, Material UI and Version Control System (Git & Github).
+                    My name is Sarthak Shukla. I am currently pursuing my Bachelor of Technology in Computer Science & Engineering from JSS Academy of Technical Education, Noida. I have been Interned as a Software Developer at <a target="_blank" href="https://growthgear.in">GrowthGear</a> & Software Engineer at <a target="_blank" href="https://forklyft.in">Forklyft</a> where I have worked with React, React Native, Node, Express, MongoDB, Nodemailer, Styled Components, Material UI and Version Control System (Git & Github).
                 </p>
                 <div className="a-award">
                     <img src={cert} alt="" className="a-award-img" />
                     <div className="a-award-texts">
-                        <h4 className="a-award-title">HackerRank Problem Solving</h4>
+                        <h4 className="a-award-title">Google Code jam</h4>
                         <p className="a-award-desc">
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-                            and fugit.
+                            Successfully qualified Round 1 of Google Code jam with 71 points out of 100
                         </p>
                     </div>
                 </div>
