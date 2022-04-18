@@ -17,7 +17,7 @@ const About = () => {
                     A Full Stack Developer with Excellent problem solving skills and ability to perform well under pressure.
                 </p>
                 <p className="a-desc">
-                    My name is Sarthak Shukla. I am currently pursuing my Bachelor of Technology in Computer Science & Engineering from JSS Academy of Technical Education, Noida. I have been Interned as a Software Developer at <a target="_blank" href="https://growthgear.in">GrowthGear</a> & Software Engineer at <a target="_blank" href="https://forklyft.in">Forklyft</a> where I have worked with React, React Native, Node, Express, MongoDB, Nodemailer, Styled Components, Material UI and Version Control System (Git & Github).
+                    My name is Sarthak Shukla. I am currently pursuing my Bachelor of Technology in Computer Science & Engineering from JSS Academy of Technical Education, Noida. I have been Interned as a Software Developer at <a style={{color: '#59b256'}} target="_blank" href="https://growthgear.in">GrowthGear</a> & Software Engineer at <a style={{color: '#59b256'}} target="_blank" href="https://forklyft.in">Forklyft</a> where I have worked with React, React Native, Node, Express, MongoDB, Nodemailer, Styled Components, Material UI and Version Control System (Git & Github).
                 </p>
                 <div className="a-award">
                     <img src={cert} alt="" className="a-award-img" />
