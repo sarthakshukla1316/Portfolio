@@ -16,6 +16,8 @@ import socloudy from './img/socloudy.png';
 import sharenow from './img/sharenow.png';
 import krishisadhan from './img/krishisadhan.png';
 import codejointly from './img/codejointly.png';
+import socialhub from './img/socialhub.png'
+import jandhan from './img/jandhan.png'
 
 export const products = [
   {
@@ -27,9 +29,25 @@ export const products = [
     stack: "HTML, CSS, SASS, Tailwind CSS, ejs, JS, Node JS, Express JS, Mongo DB, Socket.io, Stripe, laravel mix, OOPS",
   },
   {
+    id: 995390,
+    img: socialhub,
+    githubLink: "https://github.com/sarthakshukla1316/Social-hub-frontend",
+    projectUrl: "https://socialhubb.netlify.app/",
+    name: "Social Hub - Realtime Social Meeting Network",
+    stack: "React JS, Redux, Node JS, Express JS, Mongo DB, WebRTC, Web Socket",
+  },
+  {
+    id: 9258720,
+    img: jandhan,
+    githubLink: "https://github.com/sarthakshukla1316/Jan-Dhan-Darshak",
+    projectUrl: "https://github.com/sarthakshukla1316/Jan-Dhan-Darshak",
+    name: "Jan-Dhan-Darshak - Platform to locate Financial points",
+    stack: "React Native, Redux, Tailwind, Django, PostgreSQL",
+  },
+  {
     id: 90,
     img: krishisadhan,
-    githubLink: "https://github.com/rudrakshi99/SIH2022",
+    githubLink: "https://github.com/sarthakshukla1316/SIH2022",
     projectUrl: "https://krishisadhan.netlify.app/",
     name: "Krishi Sadhan - Farmer's First Choice",
     stack: "React JS, Redux, Tailwind, Django, PostgreSQL, Figma",

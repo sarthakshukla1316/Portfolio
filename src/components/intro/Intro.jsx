@@ -18,11 +18,8 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            A software Engineer with Excellent problem Solving skills and
-            ability to perform well in a team. Passionate about coding and
-            potential to develop solutions to existing real life problems.
+          A Logical and results-driven Software Engineer with good problem-solving skills and technically proficient in analyzing real life problems and providing optimize approach with strong Computer science & Engineering concepts.
           </p>
-          {/* <a href={resume} className="resume">View Resume</a> */}
           <a href={`${window.location.origin}/resume.pdf`} target="_blank" className="resume">View Resume</a>
         </div>
       </div>

@@ -40,7 +40,7 @@ const Contact = () => {
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h1 className="c-title">Let's discuss your projects</h1>
+                    <h1 className="c-title">Connect with me</h1>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon" />
@@ -59,7 +59,7 @@ const Contact = () => {
                 <div className="c-right">
                     <p className="c-desc">
                         <b>What’s your story?</b> Get in touch. Always available for
-                        starting if the right organization comes along. me.
+                        collaboration in any project
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{backgroundColor: darkmode && '#333', color: darkmode && '#fff'}} type="text" placeholder="Name" name="user_name" onChange={(e) => setName(e.target.value)} value={name} />
